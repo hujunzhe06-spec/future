@@ -5,6 +5,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { motion } from 'framer-motion'
 import './styles.css'
 gsap.registerPlugin(ScrollTrigger)
+// Ignore mobile browser chrome resize events so ScrollTrigger never jumps the page.
+ScrollTrigger.config({ignoreMobileResize:true})
 
 const projects = [
   { no:'01', title:'AI-native design system', desc:'A generative AI workflow and visual system rebuilt for distributed scale, improving cross-platform rendering efficiency by 40%.', tags:['AI / UI design','Brand systems'], tone:'cyan' },
