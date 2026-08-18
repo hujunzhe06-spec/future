@@ -16,7 +16,7 @@ const SPOTLIGHT_R = 260
 const BASE_IMAGE = '/nebula.png'
 const REVEAL_IMAGE = 'https://images.unsplash.com/photo-1534791547706-5c5f1f4b7d5f?auto=format&fit=crop&w=2400&q=90'
 const SITE_VIDEO = 'https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260601_110537_3a579fa0-7bbc-4d94-9d25-0e816c7840f5.mp4'
-const CONTACT_EMAIL = 'hello@hujunzhe.com'
+const CONTACT_EMAIL = 'hujunzhe06@gmail.com'
 const CONTACT_MAILTO = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent('Project inquiry — HUJUNZHE')}&body=${encodeURIComponent('Hi HUJUNZHE,\n\nI would like to discuss a future-facing project.\n\nBest,\n')}`
 
 function RevealLayer({cursorX, cursorY}){
